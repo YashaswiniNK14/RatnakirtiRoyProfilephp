@@ -57,6 +57,12 @@
   <br>
   <br>
 
+  <div class="menu-icon" onclick="toggleMenu()">☰</div>
+<ul class="nav-links" id="navLinks">
+   ...
+</ul>
+ <script src="script.js"></script>
+
   <?php include('footer.php');?>
 
 

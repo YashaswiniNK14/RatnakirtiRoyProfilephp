@@ -62,3 +62,9 @@ button.btn{background:var(--accent);border:none;color:white;padding:10px 14px;bo
   .main-nav{display:none}
   .quick-info{flex-direction:column}
 }
+
+.navbar {
+  position: relative;
+  z-index: 9999;
+}
+
