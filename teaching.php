@@ -1,7 +1,6 @@
 <?php include('header.php'); ?>
  <class="container">
     <h2> Teaching </h2>
-    <!--<p>List of courses taught, responsibilities, and teaching philosophy. Replace with details from the CV.</p> -->
 
     <section class="courses">
       <div class="card">

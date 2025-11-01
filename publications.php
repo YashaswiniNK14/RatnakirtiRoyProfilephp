@@ -1,7 +1,6 @@
 <?php include('header.php'); ?>
  <class="container">
     <h2>Publications</h2>
-    <!--<p>Use this section to list journal articles, conference papers, book chapters, and technical reports. You can categorize by year or type.</p> -->
 
     <section class="pub-list">
       <h3> Journal Articles</h3>
@@ -27,7 +26,4 @@
     </section>
   </main>
 
-  
-
-    
-     <?php include('footer.php');?>
+  <?php include('footer.php');?>

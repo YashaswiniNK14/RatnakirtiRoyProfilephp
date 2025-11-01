@@ -14,7 +14,6 @@
         <p class="social">
           <a href="https://scholar.google.com/citations?user=vKjSu1sAAAAJ&hl=en" aria-label="Google Scholar">Google Scholar</a> 
           <a href=" https://in.linkedin.com/in/ratnakirtiroy" aria-label="LinkedIn">LinkedIn</a> 
-          <!--<a href="mailto:rroy.nitdgp@gmail.com" aria-label="Email">rroy.nitdgp@gmail.com</a> -->
           <a href="https://mail.google.com/mail/?view=cm&to=rroy.nitdgp@gmail.com" target="_blank">Email</a>
 
         </p>
@@ -64,8 +63,5 @@
  <script src="script.js"></script>
 
   <?php include('footer.php');?>
-
-
-  <!-- class="profile-photo" -->
   
 
