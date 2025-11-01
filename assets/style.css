@@ -1,0 +1,64 @@
+/* assets/style.css - Dark mode formal theme */
+:root{
+  --bg:#0f1720;
+  --panel:#111420;
+  --muted:#9aa3b2;
+  --text:#e6eef6;
+  --accent:#2b8be6; /* change this to alter highlight color */
+  --maxwidth:1000px;
+  --radius:8px;
+  --fw-regular:400;
+}
+
+*{box-sizing:border-box}
+html,body{height:100%;margin:0;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;}
+body{background:var(--bg);color:var(--text);line-height:1.6;-webkit-font-smoothing:antialiased}
+
+.container{max-width:var(--maxwidth);margin:0 auto;padding:28px}
+
+/* Header */
+.site-header{border-bottom:1px solid rgba(255,255,255,0.03);background:linear-gradient(180deg, rgba(255,255,255,0.01), transparent)}
+.header-inner{display:flex;align-items:center;justify-content:space-between;gap:16px}
+.brand h1{margin:0;font-size:18px;letter-spacing:0.6px}
+.brand p{margin:0;color:var(--muted);font-size:13px}
+
+/* Nav */
+.main-nav a{color:var(--muted);text-decoration:none;margin-left:14px;font-size:14px}
+.main-nav a:hover{color:var(--text)}
+
+/* Hero */
+.hero{display:flex;gap:24px;align-items:center;padding:36px 0}
+.profile-photo{width:150px;height:150px;border-radius:6px;object-fit:cover;border:2px solid rgba(255,255,255,0.04);background:linear-gradient(180deg, rgba(255,255,255,0.01), transparent)}
+.hero-text h2{margin:0;font-size:26px}
+.lead{color:var(--muted);margin-top:6px;margin-bottom:12px}
+.summary{max-width:700px;color:var(--muted);margin-bottom:14px}
+.actions .btn{display:inline-block;padding:10px 14px;border-radius:6px;text-decoration:none;background:var(--accent);color:white;font-weight:600;margin-right:10px}
+.btn-outline{background:transparent;border:1px solid rgba(255,255,255,0.04);color:var(--text)}
+
+/* Quick info cards */
+.quick-info{display:flex;gap:16px;flex-wrap:wrap;margin-top:20px}
+.card{background:var(--panel);padding:14px;border-radius:var(--radius);flex:1;min-width:220px;border:1px solid rgba(255,255,255,0.03)}
+.card h3{margin-top:0;color:var(--text)}
+.card ul{margin:8px 0 0 18px;color:var(--muted)}
+
+/* Sections */
+main h2{margin-top:14px}
+.projects .project, .courses .card{background:var(--panel);padding:14px;border-radius:8px;border:1px solid rgba(255,255,255,0.03);margin-bottom:12px}
+.pub-list ol{color:var(--muted)}
+
+/* Contact form */
+.contact-form{max-width:700px;background:var(--panel);padding:16px;border-radius:8px;border:1px solid rgba(255,255,255,0.03)}
+.contact-form label{display:block;margin-top:10px;font-size:13px;color:var(--muted)}
+.contact-form input, .contact-form textarea{width:100%;padding:10px;margin-top:6px;border-radius:6px;background:#0b1116;border:1px solid rgba(255,255,255,0.02);color:var(--text)}
+.form-note{font-size:13px;color:var(--muted);margin-top:8px}
+button.btn{background:var(--accent);border:none;color:white;padding:10px 14px;border-radius:6px;font-weight:600;margin-top:12px}
+
+/* Footer */
+.site-footer{border-top:1px solid rgba(255,255,255,0.03);margin-top:30px;padding:18px 0;color:var(--muted);font-size:13px;text-align:center}
+
+/* Responsive */
+@media (max-width:800px){
+  .hero{flex-direction:column;align-items:flex-start}
+  .main-nav{display:none}
+  .quick-info{flex-direction:column}
+}
